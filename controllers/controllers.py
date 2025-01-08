@@ -2,6 +2,8 @@
 from odoo import http
 
 
+
+
 class OdooInfo(http.Controller):
     @http.route('/odoo_info/odoo_info', auth='public')
     def index(self, **kw):
@@ -21,3 +23,9 @@ class OdooInfo(http.Controller):
             'object': obj
         })
 
+    @http.route('/odoo_info/version', auth='public')
+    def version(self, **kw):
+        #env = http.request.env
+        #print(env)
+        print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+        return "Versionx 1.0"
