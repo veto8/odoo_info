@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "odoo_info",
+    'name': "Odoo Info",
     'summary': "Odoo Info, List Odoo's Settings and Parameters",
     'application' : True,
     'description': """
